@@ -11,7 +11,7 @@ class ZiKu {
 public:
 	int cnt,TTT;
 	string pinyin[501];
-	vector<hanzi> a[501];
+	vector<int> a[501];
 	map<hanzi, int> hao;
 	hanzi b[7000];
 	ZiKu() :cnt(0), TTT(0) {}

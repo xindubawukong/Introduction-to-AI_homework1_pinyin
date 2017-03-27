@@ -24,8 +24,7 @@ void ZiKu::init(const char* hanzibiao, const char* pinyinbiao) {
 			char x = getchar(), y = getchar();
 			hanzi t = hanzi(x, y);
 			//t.output();
-			a[cnt - 1].push_back(t);
-			if (a[cnt - 1].size() > maxsize) maxsize = a[cnt - 1].size();
+			a[cnt - 1].push_back(hao[t]);
 		}
 	}
 	fclose(stdin);
