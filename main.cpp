@@ -33,7 +33,7 @@ int main() {
 	ZiKu *ziku = new ZiKu();
 	ziku->init("yierjihanzibiao.txt", "pinyinhanzibiao.txt");
 	Trainer *trainer = new Trainer("../sina_news/", ziku);
-	ifstream fin("num3.out");
+	ifstream fin("num.out");
 	int x, y, z;
 	fin >> x;
 	while (x != -1) {
@@ -47,6 +47,7 @@ int main() {
 	fin.close();
 
 	freopen("1.txt", "r", stdin);
+	freopen("1.out", "w", stdout);
 	int tot1 = 0, tot2 = 0, num1 = 0, num2 = 0;
 	for (;;){
 		for (int i = 0; i < 113; i++)for (int j = 0; j < 113; j++)f[i][j] = 0;
@@ -97,7 +98,7 @@ int main() {
 		getchar();
 	}
 	cout << endl << endl;
-	cout << "单字匹配成功：" << num2 << "/" << tot2 << endl;
-	cout << "全句匹配成功：" << num1 << "/" << tot1 << endl;
+	cout << "单字匹配成功：" << num2 << "/" << tot2 << "     " << 100.0*num2 / tot2 << "%" << endl;
+	cout << "全句匹配成功：" << num1 << "/" << tot1 << "     " << 100.0*num1 / tot1 << "%" << endl;
 	return 0;
 }

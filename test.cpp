@@ -14,6 +14,6 @@ int main() {
 	//trainer->train("../sina_news/1.out");
 	//trainer->train("1.in");
 	trainer->train_all();
-	trainer->output("num3.out");
+	trainer->output("num.out");
 	return 0;
 }
