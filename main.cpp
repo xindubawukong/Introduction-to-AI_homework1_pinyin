@@ -13,7 +13,7 @@ int input[1000];
 void output(ZiKu* ziku, int i, int j) {
 	if (i == -1) return;
 	output(ziku, i - 1, from[i][j]);
-	ziku->a[input[i]][j].output();
+	ziku->b[ziku->a[input[i]][j]].output();
 }
 int main() {
 	ZiKu *ziku = new ZiKu();
@@ -50,7 +50,8 @@ int main() {
 	for (int i=1;i<n;i++)
 		for (unsigned int j=0;j<ziku->a[input[i]].size();j++)
 			for (unsigned int k = 0; k < ziku->a[input[i - 1]].size(); k++) {
-				double tmp = f[i - 1][k];
+				double P = trainer->num2[ziku->a[input[i - 1]][k]][ziku->a[input[i]][j]];
+				double tmp = f[i - 1][k] * (P + trainer->num[ziku->a[input[i - 1]][k]] / 500.0 + trainer->num[ziku->a[input[i]][j]] / 500.0);
 				if (tmp > f[i][j]) {
 					f[i][j] = tmp;
 					from[i][j] = k;
