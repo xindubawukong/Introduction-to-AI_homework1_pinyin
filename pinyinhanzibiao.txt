@@ -93,7 +93,7 @@ gai ê® ¸Ç Ø¤ ¸Æ êà ½æ Úë ¸Ä Ûò ëÜ ¸È ¸Å ¸Ã
 gan ¸É í· ÜÕ ß¦ ôû ÞÏ ä÷ äÆ ¸Ï ðá éÏ êº ¸Ò ¸Ì ¸Í ãï Ç¬ ¸Ê ¸Ñ Ûá ¸Ð ç¤ ¸Î ¸Ë ¸Ó
 gang ¸Ö ¸Ü óà ¸Ù ¸Õ ¸× ¸Ô ¸Ø ¿¸ í° ¸Û ¸Ú î¸
 gao ¸á ¸æ Þ» ¸ã ¸ä éÀ ¸Þ éÂ ¸à ¸â çÉ ï¯ ê½ ¸Ý Øº ¸ß Û¬ Ú¾ ¸å
-ge ¸è æü ÷À ¸ï ¸ð ¸ñ ¸ò ñË ¸Ç ò´ ºÏ àÃ ô´ ¿© ëõ ÒÙ ¸ç ¸ë ¸ó ¸÷ ò¢ Øî ë¡ ÛÁ íÑ ¸î Üª ¸ì ¸ö ÛÙ ïÓ ¸é ¸ê ¸õ ¸ô Øª ¸í
+ge ¸è æü ÷À ¸ï ¸ð ¸ñ ¸ò ñË ¸Ç ò´ àÃ ô´ ¿© ëõ ÒÙ ¸ç ¸ë ¸ó ¸÷ ò¢ Øî ë¡ ÛÁ íÑ ¸î Üª ¸ì ¸ö ÛÙ ïÓ ¸é ¸ê ¸õ ¸ô Øª ¸í
 gei ¸ø
 gen ¸ù ¸ú ßç Ý¢ ôÞ Ø¨
 geng ¹£ ¸ý âÙ ¸û ¹¢ öá ¾± ç® ¸þ ¹¡ ßì ¸ü
@@ -152,7 +152,7 @@ kong ¿Ø áÇ ¿Ö ¿× óí ¿Õ ÙÅ
 kou óØ ÜÒ Øþ ¿Û ßµ ¿Ù Þ¢ ¿Ü ¿Ú íî
 ku ¿â ¿Ý ¿ß ¿à ¿ã ÷¼ Ü¥ ç« ¿á ØÚ ¿æ à· ¿Þ
 kua Ù¨ ¿è ¿ä ¿ç ¿æ ¿å
-kuai ¿ë áö ßà ä« ëÚ ¿ì ¿ê ¿é Û¦ »á ÝÞ Øá
+kuai ¿ë áö ßà ä« ëÚ ¿ì ¿ê ¿é Û¦ ÝÞ Øá
 kuan ¿î ¿í ÷Å
 kuang ¿ò ¿ó Ú÷ êÜ ¿ñ ¿ô ¿õ Ú¿ ÛÛ ¿ð æþ ¿ö ßÑ Ú² ¿ï ÞÅ
 kui î¥ õÍ ñù à° ¿ü Þñ ¿ú Úó òñ ¿ý åÓ À¡ ¿÷ Ø¸ À¢ ¿û À£ ¿ø êÒ Ùç ÝÞ óñ ¿ù ØÑ ã¦ à­ ã´ ¿þ
