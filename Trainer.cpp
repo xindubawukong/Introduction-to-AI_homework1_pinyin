@@ -35,21 +35,18 @@ void Trainer::train_all() {
 	for (int i = 1; i <= 11; i++) {
 		s = (string)(i<10?"":"1")+(char)('0'+i%10)+".in";
 		train(s.c_str());
-		//cout << s << endl;
 	}
 }
 void Trainer::output(const char * filename) {
 	freopen(filename, "w", stdout);
 	for (int i=0;i<7000;i++)
 		if (num[i] > 0) {
-			//ziku->b[i].output();cout << ":" << num[i] << endl;
 			cout << i << ' ' << num[i] << endl;
 		}
 	cout << -1 << endl;
 	for (int i=0;i<7000;i++)
 		for (int j=0;j<7000;j++)
 			if (num2[i][j] > 0) {
-				//ziku->b[i].output();ziku->b[j].output();cout << ":" << num2[i][j] << endl;
 				cout << i << ' ' << j << ' ' << num2[i][j] << endl;
 			}
 	fclose(stdout);

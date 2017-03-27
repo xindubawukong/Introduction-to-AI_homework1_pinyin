@@ -7,7 +7,6 @@
 #include<string>
 #include<fstream>
 using namespace std;
-#define debug(x) cout<<#x<<"="<<x<<endl;
 void ZiKu::init(const char* hanzibiao, const char* pinyinbiao) {
 	freopen(hanzibiao, "r", stdin);
 	for (char x = getchar(), y = getchar(); x != EOF; x = getchar(), y = getchar()) {
@@ -23,7 +22,6 @@ void ZiKu::init(const char* hanzibiao, const char* pinyinbiao) {
 		for (ch = getchar(); ch != '\n'&&ch != EOF; ch = getchar()) {
 			char x = getchar(), y = getchar();
 			hanzi t = hanzi(x, y);
-			//t.output();
 			a[cnt - 1].push_back(hao[t]);
 		}
 	}

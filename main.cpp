@@ -46,7 +46,7 @@ int main() {
 	}
 	fin.close();
 
-	freopen("1.txt", "r", stdin);
+	freopen("1.in", "r", stdin);
 	freopen("1.out", "w", stdout);
 	int tot1 = 0, tot2 = 0, num1 = 0, num2 = 0;
 	for (;;){
@@ -60,7 +60,7 @@ int main() {
 		while (s.length() > 0) {
 			int t = s.find(' ');
 			string ss = s.substr(0, t);
-			input[n++] = ziku->getPinyinNumber(ss);// , cout << a[n - 1] << endl;
+			input[n++] = ziku->getPinyinNumber(ss);
 			tot2++;
 			if (s.length() <= ss.length()) break;
 			s = s.substr(t + 1, s.length());
@@ -90,7 +90,6 @@ int main() {
 		for (int i = 0; i < n; i++) {
 			char x = getchar(), y = getchar();
 			hanzi tmp = hanzi(x, y);
-			//cout << "tmp: "; tmp.output(); cout << endl;
 			if (tmp == ans[i]) num2++;
 			else flag = false;
 		}

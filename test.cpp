@@ -11,8 +11,6 @@ int main() {
 	ZiKu *ziku = new ZiKu();
 	ziku->init("../yierjihanzibiao.txt","../pinyinhanzibiao.txt");
 	Trainer *trainer = new Trainer("../sina_news/",ziku);
-	//trainer->train("../sina_news/1.out");
-	//trainer->train("1.in");
 	trainer->train_all();
 	trainer->output("num.out");
 	return 0;
